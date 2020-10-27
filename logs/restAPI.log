@@ -1,0 +1,31 @@
+2020-10-27 09:39:44 INFO  PetStoreRESTAPI:31 - ************* Started Test case TestGETAllAvailablePet ******************* 
+2020-10-27 09:39:50 INFO  PetStoreRESTAPI:40 - ************** validating status code to be 200 *******************
+2020-10-27 09:39:50 INFO  PetStoreRESTAPI:42 - ************** validated status code is 200 *******************
+2020-10-27 09:39:50 INFO  PetStoreRESTAPI:47 - ************** validating response to be not null *******************
+2020-10-27 09:39:50 INFO  PetStoreRESTAPI:49 - ************** validated response is not null *******************
+2020-10-27 09:39:50 INFO  PetStoreRESTAPI:54 - ************** validating response to be not empty *******************
+2020-10-27 09:39:50 INFO  PetStoreRESTAPI:56 - ************** validated response is not empty *******************
+2020-10-27 09:46:01 INFO  PetStoreRESTAPI:31 - ************* Started Test case TestGETAllAvailablePet ******************* 
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:40 - ************** validating status code to be 200 *******************
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:42 - ************** validated status code is 200 *******************
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:47 - ************** validating response to be not null *******************
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:49 - ************** validated response is not null *******************
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:54 - ************** validating response to be not empty *******************
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:56 - ************** validated response is not empty *******************
+2020-10-27 09:46:07 INFO  PetStoreRESTAPI:23 - ************* Started Test case TestPOSTNewAvailablePet ******************* 
+2020-10-27 09:46:09 INFO  PetStoreRESTAPI:30 - ************** validating status code to be 200 *******************
+2020-10-27 09:46:09 INFO  PetStoreRESTAPI:32 - ************** validated status code is 200 *******************
+2020-10-27 09:46:09 INFO  PetStoreRESTAPI:37 - ************** validating response id to be equal to request id *******************
+2020-10-27 09:46:09 INFO  PetStoreRESTAPI:41 - ************** validated response id is equal to request id *******************
+2020-10-27 09:46:09 INFO  PetStoreRESTAPI:25 - ************* Started Test case TestPUTUpdatePetStatus ******************* 
+2020-10-27 09:46:10 INFO  PetStoreRESTAPI:33 - ************** validating status code to be 200 *******************
+2020-10-27 09:46:11 INFO  PetStoreRESTAPI:35 - ************** validated status code is 200 *******************
+2020-10-27 09:46:11 INFO  PetStoreRESTAPI:40 - ************** validating response id to be equal to request id *******************
+2020-10-27 09:46:11 INFO  PetStoreRESTAPI:44 - ************** validated response id is equal to request id *******************
+2020-10-27 09:46:11 INFO  PetStoreRESTAPI:49 - ************** validating response status to be equal to sold *******************
+2020-10-27 09:46:11 INFO  PetStoreRESTAPI:52 - ************** validated response status is equal to sold *******************
+2020-10-27 09:46:11 INFO  PetStoreRESTAPI:24 - ************* Started Test case TestDELETEPet ******************* 
+2020-10-27 09:46:12 INFO  PetStoreRESTAPI:31 - ************** validating status code to be 200 *******************
+2020-10-27 09:46:12 INFO  PetStoreRESTAPI:33 - ************** validated status code is 200 *******************
+2020-10-27 09:46:12 INFO  PetStoreRESTAPI:38 - ************** validating message in response *******************
+2020-10-27 09:46:14 INFO  PetStoreRESTAPI:42 - ************** validated message in response *******************

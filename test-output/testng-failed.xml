@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]">
+  <listeners>
+    <listener class-name="com.api.utils.Listeners"/>
+  </listeners>
+  <test name="REST API Test">
+    <classes>
+      <class name="com.api.tests.TestGETAllAvailablePets"/>
+      <class name="com.api.tests.TestPOSTNewAvailablePet"/>
+      <class name="com.api.tests.TestPUTUpdatePetStatus"/>
+      <class name="com.api.tests.TestDELETEPet"/>
+    </classes>
+  </test> <!-- REST API Test -->
+</suite> <!-- Failed suite [Main Test Suite] -->

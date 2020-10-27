@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="12779" started-at="2020-10-27T04:16:01Z" finished-at="2020-10-27T04:16:14Z">
+    <groups>
+    </groups>
+    <test name="REST API Test" duration-ms="12779" started-at="2020-10-27T04:16:01Z" finished-at="2020-10-27T04:16:14Z">
+      <class name="com.api.tests.TestPOSTNewAvailablePet">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.TestPOSTNewAvailablePet@5bfa9431]" name="setUp" is-config="true" duration-ms="5" started-at="2020-10-27T09:46:07Z" finished-at="2020-10-27T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.api.tests.TestPOSTNewAvailablePet@5bfa9431]" name="init" is-config="true" duration-ms="2195" started-at="2020-10-27T09:46:07Z" finished-at="2020-10-27T09:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateStatusCodeToBE200()[pri:1, instance:com.api.tests.TestPOSTNewAvailablePet@5bfa9431]" name="validateStatusCodeToBE200" duration-ms="5" started-at="2020-10-27T09:46:09Z" finished-at="2020-10-27T09:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeToBE200 -->
+        <test-method status="PASS" signature="validateResponseIDToEqualToRequestID()[pri:2, instance:com.api.tests.TestPOSTNewAvailablePet@5bfa9431]" name="validateResponseIDToEqualToRequestID" duration-ms="15" started-at="2020-10-27T09:46:09Z" finished-at="2020-10-27T09:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseIDToEqualToRequestID -->
+      </class> <!-- com.api.tests.TestPOSTNewAvailablePet -->
+      <class name="com.api.tests.TestPUTUpdatePetStatus">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.TestPUTUpdatePetStatus@5db250b4]" name="setUp" is-config="true" duration-ms="3" started-at="2020-10-27T09:46:09Z" finished-at="2020-10-27T09:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.api.tests.TestPUTUpdatePetStatus@5db250b4]" name="init" is-config="true" duration-ms="1568" started-at="2020-10-27T09:46:09Z" finished-at="2020-10-27T09:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateStatusCodeToBE200()[pri:1, instance:com.api.tests.TestPUTUpdatePetStatus@5db250b4]" name="validateStatusCodeToBE200" duration-ms="7" started-at="2020-10-27T09:46:10Z" finished-at="2020-10-27T09:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeToBE200 -->
+        <test-method status="PASS" signature="validateResponseIDToEqualToRequestID()[pri:2, instance:com.api.tests.TestPUTUpdatePetStatus@5db250b4]" name="validateResponseIDToEqualToRequestID" duration-ms="33" started-at="2020-10-27T09:46:11Z" finished-at="2020-10-27T09:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseIDToEqualToRequestID -->
+        <test-method status="PASS" signature="validateResponseStatusToBeSold()[pri:3, instance:com.api.tests.TestPUTUpdatePetStatus@5db250b4]" name="validateResponseStatusToBeSold" duration-ms="11" started-at="2020-10-27T09:46:11Z" finished-at="2020-10-27T09:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseStatusToBeSold -->
+      </class> <!-- com.api.tests.TestPUTUpdatePetStatus -->
+      <class name="com.api.tests.TestGETAllAvailablePets">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.TestGETAllAvailablePets@2fd6b6c7]" name="setUp" is-config="true" duration-ms="49" started-at="2020-10-27T09:46:01Z" finished-at="2020-10-27T09:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.api.tests.TestGETAllAvailablePets@2fd6b6c7]" name="init" is-config="true" duration-ms="5054" started-at="2020-10-27T09:46:01Z" finished-at="2020-10-27T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateStatusCodeToBE200()[pri:1, instance:com.api.tests.TestGETAllAvailablePets@2fd6b6c7]" name="validateStatusCodeToBE200" duration-ms="12" started-at="2020-10-27T09:46:07Z" finished-at="2020-10-27T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeToBE200 -->
+        <test-method status="PASS" signature="validateResponseIsNotNull()[pri:2, instance:com.api.tests.TestGETAllAvailablePets@2fd6b6c7]" name="validateResponseIsNotNull" duration-ms="9" started-at="2020-10-27T09:46:07Z" finished-at="2020-10-27T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseIsNotNull -->
+        <test-method status="PASS" signature="validateResponseIsNotEmpty()[pri:3, instance:com.api.tests.TestGETAllAvailablePets@2fd6b6c7]" name="validateResponseIsNotEmpty" duration-ms="13" started-at="2020-10-27T09:46:07Z" finished-at="2020-10-27T09:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseIsNotEmpty -->
+      </class> <!-- com.api.tests.TestGETAllAvailablePets -->
+      <class name="com.api.tests.TestDELETEPet">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.TestDELETEPet@223f3642]" name="setUp" is-config="true" duration-ms="3" started-at="2020-10-27T09:46:11Z" finished-at="2020-10-27T09:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.api.tests.TestDELETEPet@223f3642]" name="init" is-config="true" duration-ms="1797" started-at="2020-10-27T09:46:11Z" finished-at="2020-10-27T09:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateStatusCodeToBE200()[pri:1, instance:com.api.tests.TestDELETEPet@223f3642]" name="validateStatusCodeToBE200" duration-ms="4" started-at="2020-10-27T09:46:12Z" finished-at="2020-10-27T09:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeToBE200 -->
+        <test-method status="PASS" signature="validateMessageInResponse()[pri:2, instance:com.api.tests.TestDELETEPet@223f3642]" name="validateMessageInResponse" duration-ms="1522" started-at="2020-10-27T09:46:12Z" finished-at="2020-10-27T09:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMessageInResponse -->
+      </class> <!-- com.api.tests.TestDELETEPet -->
+    </test> <!-- REST API Test -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
